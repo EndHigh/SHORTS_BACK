@@ -7,5 +7,6 @@ load_dotenv()
 class Settings:
     PROJECT_NAME: str = "Ai Shorts Project"
     CONNECTION_STRING: str = os.getenv("CONNECTION_STRING")
+    ASYNC_CONNECTION_STRING: str = os.getenv("ASYNC_CONNECTION_STRING")
 
 settings = Settings() 
